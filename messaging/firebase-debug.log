@@ -1,0 +1,263 @@
+[debug] [2018-10-02T07:40:08.494Z] ----------------------------------------------------------------------
+[debug] [2018-10-02T07:40:08.498Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve -p 8081 --debug
+[debug] [2018-10-02T07:40:08.498Z] CLI Version:   3.19.1
+[debug] [2018-10-02T07:40:08.498Z] Platform:      linux
+[debug] [2018-10-02T07:40:08.498Z] Node Version:  v9.5.0
+[debug] [2018-10-02T07:40:08.498Z] Time:          Tue Oct 02 2018 14:40:08 GMT+0700 (+07)
+[debug] [2018-10-02T07:40:08.498Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-10-02T07:40:08.508Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-10-02T07:40:08.508Z] > authorizing via signed-in user
+[debug] [2018-10-02T07:40:08.510Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/pushnotification-9ed9f  
+  
+ Tue Oct 02 2018 14:40:08 GMT+0700 (+07)
+[debug] [2018-10-02T07:40:09.670Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-02T07:40:09.672Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/pushnotification-9ed9f/tokens  
+  
+ Tue Oct 02 2018 14:40:09 GMT+0700 (+07)
+[debug] [2018-10-02T07:40:10.521Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-02T07:40:10.523Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/pushnotification-9ed9f  
+  
+ Tue Oct 02 2018 14:40:10 GMT+0700 (+07)
+[debug] [2018-10-02T07:40:11.791Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/var/www/tool-push/quickstart-js/messaging'...
+[info] 
+[debug] [2018-10-02T07:40:12.824Z] Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/firebase-tools/node_modules/@google-cloud/functions-emulator/logs'
+    at Object.fs.mkdirSync (fs.js:905:18)
+    at Object.assertLogsPath (/usr/local/lib/node_modules/firebase-tools/node_modules/@google-cloud/functions-emulator/src/emulator/logs.js:65:10)
+    at new Controller (/usr/local/lib/node_modules/firebase-tools/node_modules/@google-cloud/functions-emulator/src/cli/controller.js:77:32)
+    at FunctionsEmulator.start (/usr/local/lib/node_modules/firebase-tools/lib/functionsEmulator.js:113:21)
+    at Object.start (/usr/local/lib/node_modules/firebase-tools/lib/serve/functions.js:9:29)
+    at /usr/local/lib/node_modules/firebase-tools/lib/serve/index.js:17:21
+    at arrayMap (/usr/local/lib/node_modules/firebase-tools/node_modules/lodash/lodash.js:639:23)
+    at Function.map (/usr/local/lib/node_modules/firebase-tools/node_modules/lodash/lodash.js:9554:14)
+    at _serve (/usr/local/lib/node_modules/firebase-tools/lib/serve/index.js:15:7)
+    at Command._action (/usr/local/lib/node_modules/firebase-tools/commands/serve.js:48:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-10-02T07:44:07.311Z] ----------------------------------------------------------------------
+[debug] [2018-10-02T07:44:07.315Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve -p 8081 --debug
+[debug] [2018-10-02T07:44:07.315Z] CLI Version:   3.19.1
+[debug] [2018-10-02T07:44:07.315Z] Platform:      linux
+[debug] [2018-10-02T07:44:07.315Z] Node Version:  v9.5.0
+[debug] [2018-10-02T07:44:07.316Z] Time:          Tue Oct 02 2018 14:44:07 GMT+0700 (+07)
+[debug] [2018-10-02T07:44:07.316Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-10-02T07:44:07.325Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-10-02T07:44:07.325Z] > authorizing via signed-in user
+[debug] [2018-10-02T07:44:07.328Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/pushnotification-9ed9f  
+  
+ Tue Oct 02 2018 14:44:07 GMT+0700 (+07)
+[debug] [2018-10-02T07:44:08.335Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-02T07:44:08.336Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/pushnotification-9ed9f/tokens  
+  
+ Tue Oct 02 2018 14:44:08 GMT+0700 (+07)
+[debug] [2018-10-02T07:44:09.421Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-02T07:44:09.424Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/pushnotification-9ed9f  
+  
+ Tue Oct 02 2018 14:44:09 GMT+0700 (+07)
+[debug] [2018-10-02T07:44:10.696Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/var/www/tool-push/quickstart-js/messaging'...
+[info] 
+[debug] [2018-10-02T07:44:11.382Z] Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/firebase-tools/node_modules/@google-cloud/functions-emulator/logs'
+    at Object.fs.mkdirSync (fs.js:905:18)
+    at Object.assertLogsPath (/usr/local/lib/node_modules/firebase-tools/node_modules/@google-cloud/functions-emulator/src/emulator/logs.js:65:10)
+    at new Controller (/usr/local/lib/node_modules/firebase-tools/node_modules/@google-cloud/functions-emulator/src/cli/controller.js:77:32)
+    at FunctionsEmulator.start (/usr/local/lib/node_modules/firebase-tools/lib/functionsEmulator.js:113:21)
+    at Object.start (/usr/local/lib/node_modules/firebase-tools/lib/serve/functions.js:9:29)
+    at /usr/local/lib/node_modules/firebase-tools/lib/serve/index.js:17:21
+    at arrayMap (/usr/local/lib/node_modules/firebase-tools/node_modules/lodash/lodash.js:639:23)
+    at Function.map (/usr/local/lib/node_modules/firebase-tools/node_modules/lodash/lodash.js:9554:14)
+    at _serve (/usr/local/lib/node_modules/firebase-tools/lib/serve/index.js:15:7)
+    at Command._action (/usr/local/lib/node_modules/firebase-tools/commands/serve.js:48:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-10-02T07:44:40.367Z] ----------------------------------------------------------------------
+[debug] [2018-10-02T07:44:40.371Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve -p 8081 --debug
+[debug] [2018-10-02T07:44:40.371Z] CLI Version:   3.19.1
+[debug] [2018-10-02T07:44:40.371Z] Platform:      linux
+[debug] [2018-10-02T07:44:40.372Z] Node Version:  v9.5.0
+[debug] [2018-10-02T07:44:40.372Z] Time:          Tue Oct 02 2018 14:44:40 GMT+0700 (+07)
+[debug] [2018-10-02T07:44:40.372Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-10-02T07:44:40.386Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-10-02T07:44:40.386Z] > attempting to authenticate via app default credentials
+[debug] [2018-10-02T07:44:40.522Z] ! auto-auth error: Could not load the default credentials. Browse to https://developers.google.com/accounts/docs/application-default-credentials for more information.
+[debug] [2018-10-02T07:44:40.523Z] > no credentials could be found or automatically retrieved
+[error] 
+[error] Error: Command requires authentication, please run firebase login
+[debug] [2018-10-02T07:46:25.303Z] ----------------------------------------------------------------------
+[debug] [2018-10-02T07:46:25.306Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve -p 8081
+[debug] [2018-10-02T07:46:25.306Z] CLI Version:   3.19.1
+[debug] [2018-10-02T07:46:25.306Z] Platform:      linux
+[debug] [2018-10-02T07:46:25.306Z] Node Version:  v9.5.0
+[debug] [2018-10-02T07:46:25.306Z] Time:          Tue Oct 02 2018 14:46:25 GMT+0700 (+07)
+[debug] [2018-10-02T07:46:25.306Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-10-02T07:46:25.315Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-10-02T07:46:25.315Z] > authorizing via signed-in user
+[debug] [2018-10-02T07:46:25.317Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/pushnotification-9ed9f  
+  
+ Tue Oct 02 2018 14:46:25 GMT+0700 (+07)
+[debug] [2018-10-02T07:46:26.376Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-02T07:46:26.377Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/pushnotification-9ed9f/tokens  
+  
+ Tue Oct 02 2018 14:46:26 GMT+0700 (+07)
+[debug] [2018-10-02T07:46:27.187Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-02T07:46:27.189Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/pushnotification-9ed9f  
+  
+ Tue Oct 02 2018 14:46:27 GMT+0700 (+07)
+[debug] [2018-10-02T07:46:28.458Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/var/www/tool-push/quickstart-js/messaging'...
+[info] 
+[debug] [2018-10-02T07:46:29.120Z] Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/firebase-tools/node_modules/@google-cloud/functions-emulator/logs'
+    at Object.fs.mkdirSync (fs.js:905:18)
+    at Object.assertLogsPath (/usr/local/lib/node_modules/firebase-tools/node_modules/@google-cloud/functions-emulator/src/emulator/logs.js:65:10)
+    at new Controller (/usr/local/lib/node_modules/firebase-tools/node_modules/@google-cloud/functions-emulator/src/cli/controller.js:77:32)
+    at FunctionsEmulator.start (/usr/local/lib/node_modules/firebase-tools/lib/functionsEmulator.js:113:21)
+    at Object.start (/usr/local/lib/node_modules/firebase-tools/lib/serve/functions.js:9:29)
+    at /usr/local/lib/node_modules/firebase-tools/lib/serve/index.js:17:21
+    at arrayMap (/usr/local/lib/node_modules/firebase-tools/node_modules/lodash/lodash.js:639:23)
+    at Function.map (/usr/local/lib/node_modules/firebase-tools/node_modules/lodash/lodash.js:9554:14)
+    at _serve (/usr/local/lib/node_modules/firebase-tools/lib/serve/index.js:15:7)
+    at Command._action (/usr/local/lib/node_modules/firebase-tools/commands/serve.js:48:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-10-02T07:46:40.537Z] ----------------------------------------------------------------------
+[debug] [2018-10-02T07:46:40.541Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve -p 8081 --debug
+[debug] [2018-10-02T07:46:40.541Z] CLI Version:   3.19.1
+[debug] [2018-10-02T07:46:40.541Z] Platform:      linux
+[debug] [2018-10-02T07:46:40.541Z] Node Version:  v9.5.0
+[debug] [2018-10-02T07:46:40.542Z] Time:          Tue Oct 02 2018 14:46:40 GMT+0700 (+07)
+[debug] [2018-10-02T07:46:40.542Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-10-02T07:46:40.551Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-10-02T07:46:40.551Z] > authorizing via signed-in user
+[debug] [2018-10-02T07:46:40.553Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/pushnotification-9ed9f  
+  
+ Tue Oct 02 2018 14:46:40 GMT+0700 (+07)
+[debug] [2018-10-02T07:46:41.607Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-02T07:46:41.608Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/pushnotification-9ed9f/tokens  
+  
+ Tue Oct 02 2018 14:46:41 GMT+0700 (+07)
+[debug] [2018-10-02T07:46:42.426Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-02T07:46:42.429Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/pushnotification-9ed9f  
+  
+ Tue Oct 02 2018 14:46:42 GMT+0700 (+07)
+[debug] [2018-10-02T07:46:43.700Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/var/www/tool-push/quickstart-js/messaging'...
+[info] 
+[debug] [2018-10-02T07:46:44.388Z] Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/firebase-tools/node_modules/@google-cloud/functions-emulator/logs'
+    at Object.fs.mkdirSync (fs.js:905:18)
+    at Object.assertLogsPath (/usr/local/lib/node_modules/firebase-tools/node_modules/@google-cloud/functions-emulator/src/emulator/logs.js:65:10)
+    at new Controller (/usr/local/lib/node_modules/firebase-tools/node_modules/@google-cloud/functions-emulator/src/cli/controller.js:77:32)
+    at FunctionsEmulator.start (/usr/local/lib/node_modules/firebase-tools/lib/functionsEmulator.js:113:21)
+    at Object.start (/usr/local/lib/node_modules/firebase-tools/lib/serve/functions.js:9:29)
+    at /usr/local/lib/node_modules/firebase-tools/lib/serve/index.js:17:21
+    at arrayMap (/usr/local/lib/node_modules/firebase-tools/node_modules/lodash/lodash.js:639:23)
+    at Function.map (/usr/local/lib/node_modules/firebase-tools/node_modules/lodash/lodash.js:9554:14)
+    at _serve (/usr/local/lib/node_modules/firebase-tools/lib/serve/index.js:15:7)
+    at Command._action (/usr/local/lib/node_modules/firebase-tools/commands/serve.js:48:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-10-02T07:46:55.689Z] ----------------------------------------------------------------------
+[debug] [2018-10-02T07:46:55.692Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve -p 8081 --debug
+[debug] [2018-10-02T07:46:55.692Z] CLI Version:   3.19.1
+[debug] [2018-10-02T07:46:55.693Z] Platform:      linux
+[debug] [2018-10-02T07:46:55.693Z] Node Version:  v9.5.0
+[debug] [2018-10-02T07:46:55.693Z] Time:          Tue Oct 02 2018 14:46:55 GMT+0700 (+07)
+[debug] [2018-10-02T07:46:55.693Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-10-02T07:46:55.702Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-10-02T07:46:55.702Z] > authorizing via signed-in user
+[debug] [2018-10-02T07:46:55.705Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/pushnotification-9ed9f  
+  
+ Tue Oct 02 2018 14:46:55 GMT+0700 (+07)
+[debug] [2018-10-02T07:46:56.719Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-02T07:46:56.720Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/pushnotification-9ed9f/tokens  
+  
+ Tue Oct 02 2018 14:46:56 GMT+0700 (+07)
+[debug] [2018-10-02T07:46:57.537Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-02T07:46:57.539Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/pushnotification-9ed9f  
+  
+ Tue Oct 02 2018 14:46:57 GMT+0700 (+07)
+[debug] [2018-10-02T07:46:58.818Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/var/www/tool-push/quickstart-js/messaging'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-10-02T07:46:59.214Z] Fetching environment
+[debug] [2018-10-02T07:46:59.216Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/558124954948:getServerAppConfig  
+  
+ Tue Oct 02 2018 14:46:59 GMT+0700 (+07)
+[debug] [2018-10-02T07:46:59.216Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/558124954948/clients/_:getWebAppConfig  
+  
+ Tue Oct 02 2018 14:46:59 GMT+0700 (+07)
+[debug] [2018-10-02T07:46:59.719Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-02T07:46:59.720Z] Starting @google-cloud/functions-emulator
+[debug] [2018-10-02T07:46:59.798Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:8081
+
+[debug] [2018-10-02T07:47:00.749Z] Parsing function triggers
+[warn] ⚠  functions: Failed to load functions source code. Ensure that you have the latest SDK by running npm i --save firebase-functions inside the functions directory.
+[debug] [2018-10-02T07:47:00.824Z] Error during trigger parsing:  Error parsing triggers: Cannot find module '/var/www/tool-push/quickstart-js/messaging/functions'
+
+Try running "npm install" in your functions directory before deploying.
+[warn] ⚠  functions: Error from emulator. Error parsing triggers: Cannot find module '/var/www/tool-push/quickstart-js/messaging/functions'
+
+Try running "npm install" in your functions directory before deploying.
+[debug] [2018-10-02T07:47:00.825Z] 
+[info] Shutting down...
+[debug] [2018-10-02T07:49:55.713Z] ----------------------------------------------------------------------
+[debug] [2018-10-02T07:49:55.716Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve -p 8081 --debug
+[debug] [2018-10-02T07:49:55.716Z] CLI Version:   3.19.1
+[debug] [2018-10-02T07:49:55.717Z] Platform:      linux
+[debug] [2018-10-02T07:49:55.717Z] Node Version:  v9.5.0
+[debug] [2018-10-02T07:49:55.717Z] Time:          Tue Oct 02 2018 14:49:55 GMT+0700 (+07)
+[debug] [2018-10-02T07:49:55.717Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-10-02T07:49:55.726Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-10-02T07:49:55.726Z] > authorizing via signed-in user
+[debug] [2018-10-02T07:49:55.729Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/pushnotification-9ed9f  
+  
+ Tue Oct 02 2018 14:49:55 GMT+0700 (+07)
+[debug] [2018-10-02T07:49:57.226Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-02T07:49:57.228Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/pushnotification-9ed9f/tokens  
+  
+ Tue Oct 02 2018 14:49:57 GMT+0700 (+07)
+[debug] [2018-10-02T07:49:58.262Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-02T07:49:58.265Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/pushnotification-9ed9f  
+  
+ Tue Oct 02 2018 14:49:58 GMT+0700 (+07)
+[debug] [2018-10-02T07:49:59.545Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/var/www/tool-push/quickstart-js/messaging'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-10-02T07:49:59.984Z] Fetching environment
+[debug] [2018-10-02T07:49:59.986Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/558124954948:getServerAppConfig  
+  
+ Tue Oct 02 2018 14:49:59 GMT+0700 (+07)
+[debug] [2018-10-02T07:49:59.987Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/558124954948/clients/_:getWebAppConfig  
+  
+ Tue Oct 02 2018 14:49:59 GMT+0700 (+07)
+[debug] [2018-10-02T07:50:00.466Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:8081
+
+[debug] [2018-10-02T07:50:00.572Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-02T07:50:00.573Z] Starting @google-cloud/functions-emulator
+[debug] [2018-10-02T07:50:01.603Z] Parsing function triggers
+[warn] ⚠  functions: Failed to load functions source code. Ensure that you have the latest SDK by running npm i --save firebase-functions inside the functions directory.
+[debug] [2018-10-02T07:50:01.677Z] Error during trigger parsing:  Error parsing triggers: Cannot find module '/var/www/tool-push/quickstart-js/messaging/functions'
+
+Try running "npm install" in your functions directory before deploying.
+[warn] ⚠  functions: Error from emulator. Error parsing triggers: Cannot find module '/var/www/tool-push/quickstart-js/messaging/functions'
+
+Try running "npm install" in your functions directory before deploying.
+[debug] [2018-10-02T07:50:01.677Z] 
